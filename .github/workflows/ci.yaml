@@ -2,7 +2,7 @@ name: Continous Integration
 on: push
 env: 
  DB_USER: root
- DB_NAME: text
+ DB_NAME: test
  DB_PASSWORD: Oraplus@95
 jobs:
   run_Code_Check:
