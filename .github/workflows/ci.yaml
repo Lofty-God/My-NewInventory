@@ -6,7 +6,7 @@ env:
  DB_PASSWORD: Oraplus@95
 jobs:
   run_Code_Check:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
     - name: Set up MYSQL
       run: |
